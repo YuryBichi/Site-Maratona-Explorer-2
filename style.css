@@ -11,7 +11,7 @@
   
   body { 
     background:linear-gradient(to bottom right, 
-    rgb(99, 99, 99), rgb(269, 269, 269));
+    rgb(243, 243, 243), rgb(210, 210, 210));
     display: flex;
     align-items: center;
     justify-content: center;

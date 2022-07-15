@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;   
+}
+html{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+} 
+
+.FormularioAgendamento, .FormularioAgendamento__Calendario {
+     font-size: 20px;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+}
+
+.FormularioAgendamento__Calendario {
+    width: 60px;
+    height: 60px;
+    background-color:  rgb(59, 59, 59);
+    border-radius: 100%; 
+}
+
+p {
+    width: 80%;
+}
+
+form {
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 30rem;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 12px 24px 12px;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0%;  
+}
+
+.InputStyles{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input, .select-input{
+    height: 25px;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.pagina {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-family: "Open sans", sans-serif;
+    color: rgb(59, 59, 59); 
+    max-width: 28rem;
+}
+
+.Button {
+    margin-top: 1em;
+    color: white;
+    background-color: #32CD32;
+    height: 40px;
+    width: 60%;
+    border-radius: 20px;
+    transition: 400ms 
+    
+}
+
+.Button:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+
+}
